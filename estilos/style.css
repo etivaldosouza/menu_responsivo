@@ -18,12 +18,14 @@ header {
 }
 
 header > h1 {
-    padding: 10px;
+    padding-top: 20px;
     text-align: center;
 }
 
 menu {
+    margin-top: 50px;
     display: none;
+
 }
 
 menu > ul {
@@ -51,7 +53,8 @@ menu > ul {
     color: black;
 }
 li {
-    padding: 10px;
+    padding: 7px;
+    
      
 }
 li > a {
@@ -61,10 +64,12 @@ li > a {
     padding: 10px;
     border-radius: 5px;
     
+    
+    
 }
 
 a:hover {
-    background-color: gray;
+    
     color: rgba(0, 0, 255, 200);
     transition: 0.4s;
 }

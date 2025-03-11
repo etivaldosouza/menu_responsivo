@@ -48,11 +48,12 @@
             }
         }
         
-        
-       window .addEventListener("resize",mudouTamanho)
+        // quando aumenta a largura da janela o menu aparece novamente
+        window.onresize = mudouTamanho
         function mudouTamanho() {
             if(window.innerWidth >= 768) {
-                menu.style.display='block'
+                menu.style.display='flex'
+                
             }else {
                 menu.style.display='none'
             }
