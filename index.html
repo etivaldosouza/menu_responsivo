@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/9e018b46c9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilos/media-querie.css">
 </head>
-<body>
+<body id="corpo">
     <header>
         <h1>Meu Site.com</h1>
         <i class="fa-solid fa-bars fa-2x" ></i>
@@ -34,8 +34,9 @@
         </article>
     </main>
     <script>
-        var c = document.querySelector('.fa-solid')
-        c.addEventListener('click',clicar)
+
+        var i = document.querySelector('.fa-solid')
+        i.addEventListener('click',clicar)
         
         function clicar(){           
             if(menu.style.display=='block'){ // se o menu estiver sendo exibido(block)
@@ -46,6 +47,17 @@
 
             }
         }
+        
+        
+       window .addEventListener("resize",mudouTamanho)
+        function mudouTamanho() {
+            if(window.innerWidth >= 768) {
+                menu.style.display='block'
+            }else {
+                menu.style.display='none'
+            }
+        }
+       
     </script>
 </body>
 </html>

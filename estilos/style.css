@@ -8,10 +8,8 @@
     box-sizing: border-box;
 }
 
-body,html {
+body {
 
-    width: 100vw;
-    height: 100vh;
     background-color: lightgray;
 }
 
@@ -72,7 +70,7 @@ a:hover {
 }
 
 main {
-    
+   
     width: 90vw;
     background-color: white;
     margin: auto;
@@ -83,6 +81,7 @@ main {
 
 article > h2 {
     padding-bottom: 20px;
+    text-align: center;
 }
 
 p {
