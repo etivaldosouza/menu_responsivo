@@ -1,0 +1,27 @@
+@charset "UTF=8";
+
+/* TypicaL Device Breakpoints
+
+pequenas Telas: até 600px
+
+celular: min = 600px
+
+tablet : min 768px
+
+Desktop: min 992px
+
+Grandes telas min 1200px
+
+*/
+
+@media screen and (min-width: 768px) {
+    .fa-solid {
+        display: none;
+    }
+
+    menu {
+       display: block;
+    }
+
+ 
+}
